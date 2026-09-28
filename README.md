@@ -1,49 +1,36 @@
-![Nhur — Encuentra tu comunidad. Construye tu espacio.](assets/hero.svg)
+# Nhur / Encontrar a los tuyos. Construir un lugar.
 
-# Nhur
+**Una red social de comunidades y nichos.** Nace de la idea de una alternativa a Amino: pertenencia, conversación y descubrimiento, con Entradas modulares que dejan organizar contenido con más intención que un muro plano.
 
-**Encuentra tu comunidad. Construye tu espacio.**
+**Expo · React Native · TypeScript** · Producto en desarrollo.
 
-Una red social en desarrollo como alternativa a Amino, donde crear comunidades, explorar nichos y conectar con personas que comparten tus intereses. Combina conversación inspirada en Discord, descubrimiento tipo Reddit y publicaciones modulares al estilo Notion.
+## De la comunidad al contenido
 
-**Stack:** TypeScript · React Native · Expo  
-**Estado:** Preview local en desarrollo
+Los **Entornos** dan un lugar a intereses compartidos. Los **Canales** sostienen la conversación. Las **Entradas** permiten componer y conservar contenido mediante bloques. La inspiración combina comunidad, conversación tipo Discord, descubrimiento tipo Reddit y edición modular al estilo Notion.
 
-[Portfolio](https://github.com/calinrus-dev/portfolio) · [Experiencia](docs/EXPERIENCIA.md) · [Componentes](docs/COMPONENTES.md) · [Diseño técnico](docs/ARQUITECTURA.md) · [Demostraciones](docs/DEMOSTRACIONES.md) · [Estado](docs/ESTADO.md)
+El recorrido anterior se conocía como Glow; su exploración visual forma parte de la historia y la identidad de Nhur. [Contexto del proyecto](docs/EXPERIENCIA.md).
 
-## El problema que aborda
+## Una Entrada que puedes tocar
 
-Las comunidades necesitan un lugar que conserve su identidad y permita tanto conversar como crear contenido con estructura. Nhur nace de mi interés por recuperar esa experiencia de comunidad y combinarla con formas más flexibles de participar, publicar y descubrir.
+[**Abrir la mesa de bloques →**](https://calinrus-dev.github.io/nhur-showcase/) · [Modelo y renderizador](samples/entry.js) · [Pruebas](test/entry.test.mjs)
 
-## Qué compone la experiencia
+Edita texto, mueve una cita, guarda localmente y recarga. La identidad del bloque sobrevive al cambio de posición. Si escribes `<img src=x>`, debes leer esos caracteres; el contenido de una comunidad no puede convertirse por accidente en instrucciones para el navegador.
 
-- **Comunidades y Entornos.** Espacios temáticos para crear comunidades y reunir intereses compartidos.
-- **Canales y Máscaras.** Conversaciones y presencia contextual dentro de cada comunidad.
-- **Entradas modulares.** Publicaciones con texto, citas, listas y encuestas mediante Smart Blocks.
-- **Identidad Glow.** Lenguaje visual expresivo que forma parte de la experiencia de Nhur.
+**Esta es una referencia nueva y acotada para el escaparate.** No es una extracción del editor completo ni del protocolo privado de Nhur. Tres tipos de bloque, validación de límites, proyección de campos, renderizado como texto y almacenamiento local opcional.
 
-![Mapa conceptual de Nhur: Encontrar tu comunidad → Entrar en un Canal → Componer una Entrada → Compartir tus intereses.](assets/experiencia.svg)
+[![Pruebas de la muestra](https://github.com/calinrus-dev/nhur-showcase/actions/workflows/verify.yml/badge.svg)](https://github.com/calinrus-dev/nhur-showcase/actions/workflows/verify.yml)
 
-*Lámina explicativa con datos ficticios. Su contenido también está disponible como texto en [Componentes](docs/COMPONENTES.md).*
+~~~sh
+node --test test/*.test.mjs
+~~~
 
-## Decisiones que definen el proyecto
+## Local-first no elimina la dificultad de sincronizar
 
-- **El nicho tiene identidad propia.** Cada comunidad necesita contexto, conversación y espacio para expresarse.
-- **Una publicación puede ser un pequeño documento.** Los Smart Blocks permiten componer Entradas con distintas piezas de contenido.
-- **Glow evoluciona dentro de Nhur.** El nombre anterior da paso al producto actual; Glow continúa como parte de su estética y lenguaje visual.
+Un documento local permite continuar y conservar trabajo. Una red social también necesita identidad, permisos, moderación y resolución de conflictos. Esta muestra no simula haber resuelto esas partes: enseña el límite local que puede examinarse de forma independiente.
 
-## Explorar el caso
+El arranque web del producto completo tenía pendiente resolver `@nhur/ui` en la última revisión. La demo pública funciona por separado; no es evidencia de que la red social completa esté desplegada.
 
-- [Experiencia y recorrido](docs/EXPERIENCIA.md): intención, interacción y criterios de revisión.
-- [Componentes](docs/COMPONENTES.md): las piezas visibles y el papel de cada una.
-- [Diseño técnico](docs/ARQUITECTURA.md): responsabilidades y compromisos de diseño.
-- [Demostraciones](docs/DEMOSTRACIONES.md): qué enseñan las imágenes y cómo leer la evidencia.
-- [Estado y siguientes pasos](docs/ESTADO.md): alcance actual, comprobaciones y trabajo pendiente.
+[Estado y pendientes](docs/ESTADO.md) · [Arquitectura](docs/ARQUITECTURA.md) · [Origen y límites](docs/PROVENANCE.md) · [Verificación](docs/VERIFICATION.md) · [Portfolio](https://github.com/calinrus-dev/portfolio)
 
-## Sobre este repositorio
 
-Caso de estudio público de un proyecto con implementación privada. Reúne documentación, diagramas e imágenes seleccionadas. Los detalles del motor, integraciones, datos operativos y código se mantienen en los repositorios privados.
-
-Revisión editorial: 28 de septiembre de 2026. Autor: [Calin Rus](https://github.com/calinrus-dev).
-
-[calinrus.com](https://calinrus.com) · [Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [Todos los proyectos](https://github.com/calinrus-dev/portfolio)
+[Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus/)

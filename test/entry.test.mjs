@@ -1,0 +1,12 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {validateEntry,moveBlock} from '../samples/entry.js';
+const sample=()=>({version:1,blocks:[{id:'a',type:'text',text:'Uno'},{id:'b',type:'checklist',text:'Dos',checked:false}]});
+test('projection strips unrecognized fields and does not mutate input',()=>{const input=sample();input.blocks[0].html='<script>';const clean=validateEntry(input);assert.equal(clean.blocks[0].html,undefined);assert.equal(input.blocks[0].html,'<script>');});
+test('reordering is immutable and keeps block identity',()=>{const input=sample();const moved=moveBlock(input,'a',1);assert.deepEqual(moved.blocks.map(b=>b.id),['b','a']);assert.deepEqual(input.blocks.map(b=>b.id),['a','b']);});
+test('boundary move keeps order; missing identity and invalid delta reject',()=>{assert.deepEqual(moveBlock(sample(),'a',-1),sample());assert.throws(()=>moveBlock(sample(),'unknown',1));assert.throws(()=>moveBlock(sample(),'a',2));});
+test('duplicate identities cannot enter an entry',()=>{const input=sample();input.blocks[1].id='a';assert.throws(()=>validateEntry(input));});
+test('unknown versions and block types reject before rendering',()=>{assert.throws(()=>validateEntry({...sample(),version:2}));const input=sample();input.blocks[0].type='script';assert.throws(()=>validateEntry(input));});
+test('collection and text sizes are bounded',()=>{assert.throws(()=>validateEntry({version:1,blocks:Array(101).fill(sample().blocks[0])}));const input=sample();input.blocks[0].text='x'.repeat(4001);assert.throws(()=>validateEntry(input));});
+test('HTML-looking text remains literal data',()=>{const input=sample();input.blocks[0].text='<img src=x onerror=alert(1)>';assert.equal(validateEntry(input).blocks[0].text,input.blocks[0].text);});
+test('checkbox state must be boolean',()=>{const input=sample();input.blocks[1].checked='true';assert.throws(()=>validateEntry(input));});
