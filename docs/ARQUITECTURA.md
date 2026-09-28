@@ -4,7 +4,7 @@
 
 ## Contexto
 
-Una plataforma social organizada en Entornos, Canales y Entradas, donde la identidad y la apariencia cambian con el contexto.
+Una red social en desarrollo como alternativa a Amino, donde crear comunidades, explorar nichos y conectar con personas que comparten tus intereses. Combina conversación inspirada en Discord, descubrimiento tipo Reddit y publicaciones modulares al estilo Notion.
 
 **Tecnologías asociadas al proyecto:** TypeScript · React Native · Expo.
 
@@ -19,17 +19,17 @@ flowchart TD
     C --> D["Persistencia y conexión"]
 ```
 
-## El contexto organiza
+## El nicho tiene identidad propia
 
-Global abre el descubrimiento; Entornos y Canales aportan profundidad y significado.
+Cada comunidad necesita contexto, conversación y espacio para expresarse.
 
-## Expresión con límites
+## Una publicación puede ser un pequeño documento
 
-Los temas y efectos acompañan a la lectura; las preferencias de accesibilidad tienen prioridad.
+Los Smart Blocks permiten componer Entradas con distintas piezas de contenido.
 
-## Demostración diferenciada
+## Glow evoluciona dentro de Nhur
 
-Los ejemplos locales se distinguen de una cuenta conectada y de personas reales.
+El nombre anterior da paso al producto actual; Glow continúa como parte de su estética y lenguaje visual.
 
 ## Rendimiento y dependencia
 
@@ -41,6 +41,6 @@ No se publican cifras de rendimiento sin un ensayo identificado. La evidencia es
 
 ## Qué conviene demostrar después
 
-- Estabilizar el entorno de ejecución de la preview.
-- Validar cuentas reales, conectividad y persistencia entre dispositivos.
-- Ampliar moderación, accesibilidad y gestión del ciclo de vida de datos.
+- Estabilizar la preview e integración de comunidades.
+- Validar cuentas, conversación y continuidad entre dispositivos.
+- Evolucionar Entradas, moderación y accesibilidad con casos de uso reales.

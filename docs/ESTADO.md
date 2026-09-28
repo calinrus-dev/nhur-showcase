@@ -17,9 +17,9 @@ Existe un registro de verificaciones de septiembre de 2026. Para este escaparate
 
 ## Siguientes pasos
 
-- Estabilizar el entorno de ejecución de la preview.
-- Validar cuentas reales, conectividad y persistencia entre dispositivos.
-- Ampliar moderación, accesibilidad y gestión del ciclo de vida de datos.
+- Estabilizar la preview e integración de comunidades.
+- Validar cuentas, conversación y continuidad entre dispositivos.
+- Evolucionar Entradas, moderación y accesibilidad con casos de uso reales.
 
 ## Cómo se mantiene este caso
 

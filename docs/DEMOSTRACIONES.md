@@ -12,14 +12,14 @@ La documentación interna describe recorridos locales de chat, borradores y Más
 
 Este guion sirve para explicar el recorrido documentado y preparar una demostración controlada. No afirma que se haya ejecutado completo durante esta publicación.
 
-1. **Descubrir un Entorno.** Observar: Lugares temáticos con portada, reglas e identidad visual.
-2. **Elegir una identidad.** Observar: Conversaciones y una presencia contextual dentro de cada Canal.
-3. **Crear una Entrada.** Observar: Entradas compuestas con texto, citas, listas y encuestas.
-4. **Continuar la conversación.** Observar: Borradores y estado local para mantener el recorrido entre sesiones.
+1. **Encontrar tu comunidad.** Observar: Espacios temáticos para crear comunidades y reunir intereses compartidos.
+2. **Entrar en un Canal.** Observar: Conversaciones y presencia contextual dentro de cada comunidad.
+3. **Componer una Entrada.** Observar: Publicaciones con texto, citas, listas y encuestas mediante Smart Blocks.
+4. **Compartir tus intereses.** Observar: Lenguaje visual expresivo que forma parte de la experiencia de Nhur.
 
 ## Lectura de la lámina
 
-![Lámina conceptual: Descubrir un Entorno → Elegir una identidad → Crear una Entrada → Continuar la conversación.](../assets/experiencia.svg)
+![Lámina conceptual: Encontrar tu comunidad → Entrar en un Canal → Componer una Entrada → Compartir tus intereses.](../assets/experiencia.svg)
 
 La ilustración reúne las piezas y sus relaciones. Sus estados, textos de muestra y formas son editoriales. Las capturas reales, cuando existen, aparecen identificadas por separado.
 

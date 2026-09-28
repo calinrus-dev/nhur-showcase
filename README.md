@@ -1,10 +1,10 @@
-![Nhur — Tus pasiones tienen un lugar.](assets/hero.svg)
+![Nhur — Encuentra tu comunidad. Construye tu espacio.](assets/hero.svg)
 
 # Nhur
 
-**Tus pasiones tienen un lugar.**
+**Encuentra tu comunidad. Construye tu espacio.**
 
-Una plataforma social organizada en Entornos, Canales y Entradas, donde la identidad y la apariencia cambian con el contexto.
+Una red social en desarrollo como alternativa a Amino, donde crear comunidades, explorar nichos y conectar con personas que comparten tus intereses. Combina conversación inspirada en Discord, descubrimiento tipo Reddit y publicaciones modulares al estilo Notion.
 
 **Stack:** TypeScript · React Native · Expo  
 **Estado:** Preview local en desarrollo
@@ -13,24 +13,24 @@ Una plataforma social organizada en Entornos, Canales y Entradas, donde la ident
 
 ## El problema que aborda
 
-Un perfil único no siempre encaja en todos los intereses de una persona. Nhur explora espacios con identidad propia, conversaciones contextualizadas y contenido que puede estructurarse más allá de un mensaje.
+Las comunidades necesitan un lugar que conserve su identidad y permita tanto conversar como crear contenido con estructura. Nhur nace de mi interés por recuperar esa experiencia de comunidad y combinarla con formas más flexibles de participar, publicar y descubrir.
 
 ## Qué compone la experiencia
 
-- **Entornos.** Lugares temáticos con portada, reglas e identidad visual.
-- **Canales y Máscaras.** Conversaciones y una presencia contextual dentro de cada Canal.
-- **Smart Blocks.** Entradas compuestas con texto, citas, listas y encuestas.
-- **Continuidad local.** Borradores y estado local para mantener el recorrido entre sesiones.
+- **Comunidades y Entornos.** Espacios temáticos para crear comunidades y reunir intereses compartidos.
+- **Canales y Máscaras.** Conversaciones y presencia contextual dentro de cada comunidad.
+- **Entradas modulares.** Publicaciones con texto, citas, listas y encuestas mediante Smart Blocks.
+- **Identidad Glow.** Lenguaje visual expresivo que forma parte de la experiencia de Nhur.
 
-![Mapa conceptual de Nhur: Descubrir un Entorno → Elegir una identidad → Crear una Entrada → Continuar la conversación.](assets/experiencia.svg)
+![Mapa conceptual de Nhur: Encontrar tu comunidad → Entrar en un Canal → Componer una Entrada → Compartir tus intereses.](assets/experiencia.svg)
 
 *Lámina explicativa con datos ficticios. Su contenido también está disponible como texto en [Componentes](docs/COMPONENTES.md).*
 
 ## Decisiones que definen el proyecto
 
-- **El contexto organiza.** Global abre el descubrimiento; Entornos y Canales aportan profundidad y significado.
-- **Expresión con límites.** Los temas y efectos acompañan a la lectura; las preferencias de accesibilidad tienen prioridad.
-- **Demostración diferenciada.** Los ejemplos locales se distinguen de una cuenta conectada y de personas reales.
+- **El nicho tiene identidad propia.** Cada comunidad necesita contexto, conversación y espacio para expresarse.
+- **Una publicación puede ser un pequeño documento.** Los Smart Blocks permiten componer Entradas con distintas piezas de contenido.
+- **Glow evoluciona dentro de Nhur.** El nombre anterior da paso al producto actual; Glow continúa como parte de su estética y lenguaje visual.
 
 ## Explorar el caso
 

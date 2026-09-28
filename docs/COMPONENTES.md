@@ -6,41 +6,41 @@
 
 Lámina conceptual con contenido ficticio. Las piezas de esta página describen la experiencia y sus responsabilidades visibles.
 
-## 01 / Entornos
+## 01 / Comunidades y Entornos
 
-Lugares temáticos con portada, reglas e identidad visual.
+Espacios temáticos para crear comunidades y reunir intereses compartidos.
 
-**En el recorrido:** Descubrir un Entorno.
+**En el recorrido:** Encontrar tu comunidad.
 
 **Responsabilidad relacionada:** Navegación e identidad.
 
 ## 02 / Canales y Máscaras
 
-Conversaciones y una presencia contextual dentro de cada Canal.
+Conversaciones y presencia contextual dentro de cada comunidad.
 
-**En el recorrido:** Elegir una identidad.
+**En el recorrido:** Entrar en un Canal.
 
 **Responsabilidad relacionada:** Entornos y Canales.
 
-## 03 / Smart Blocks
+## 03 / Entradas modulares
 
-Entradas compuestas con texto, citas, listas y encuestas.
+Publicaciones con texto, citas, listas y encuestas mediante Smart Blocks.
 
-**En el recorrido:** Crear una Entrada.
+**En el recorrido:** Componer una Entrada.
 
 **Responsabilidad relacionada:** Entradas y Smart Blocks.
 
-## 04 / Continuidad local
+## 04 / Identidad Glow
 
-Borradores y estado local para mantener el recorrido entre sesiones.
+Lenguaje visual expresivo que forma parte de la experiencia de Nhur.
 
-**En el recorrido:** Continuar la conversación.
+**En el recorrido:** Compartir tus intereses.
 
 **Responsabilidad relacionada:** Persistencia y conexión.
 
 ## Relación entre las piezas
 
-Descubrir un Entorno → Elegir una identidad → Crear una Entrada → Continuar la conversación.
+Encontrar tu comunidad → Entrar en un Canal → Componer una Entrada → Compartir tus intereses.
 
 El recorrido permite discutir jerarquía, navegación y continuidad. La representación se simplifica a propósito y no publica los contratos internos de implementación.
 

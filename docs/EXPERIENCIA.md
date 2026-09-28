@@ -4,39 +4,39 @@
 
 ## Intención
 
-Un perfil único no siempre encaja en todos los intereses de una persona. Nhur explora espacios con identidad propia, conversaciones contextualizadas y contenido que puede estructurarse más allá de un mensaje.
+Las comunidades necesitan un lugar que conserve su identidad y permita tanto conversar como crear contenido con estructura. Nhur nace de mi interés por recuperar esa experiencia de comunidad y combinarla con formas más flexibles de participar, publicar y descubrir.
 
 ## El recorrido
 
-### 1. Descubrir un Entorno
+### 1. Encontrar tu comunidad
 
-Lugares temáticos con portada, reglas e identidad visual.
-
-La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
-
-### 2. Elegir una identidad
-
-Conversaciones y una presencia contextual dentro de cada Canal.
+Espacios temáticos para crear comunidades y reunir intereses compartidos.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
-### 3. Crear una Entrada
+### 2. Entrar en un Canal
 
-Entradas compuestas con texto, citas, listas y encuestas.
+Conversaciones y presencia contextual dentro de cada comunidad.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
-### 4. Continuar la conversación
+### 3. Componer una Entrada
 
-Borradores y estado local para mantener el recorrido entre sesiones.
+Publicaciones con texto, citas, listas y encuestas mediante Smart Blocks.
+
+La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
+
+### 4. Compartir tus intereses
+
+Lenguaje visual expresivo que forma parte de la experiencia de Nhur.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
 ## Criterios de interacción
 
-- **El contexto organiza.** Global abre el descubrimiento; Entornos y Canales aportan profundidad y significado.
-- **Expresión con límites.** Los temas y efectos acompañan a la lectura; las preferencias de accesibilidad tienen prioridad.
-- **Demostración diferenciada.** Los ejemplos locales se distinguen de una cuenta conectada y de personas reales.
+- **El nicho tiene identidad propia.** Cada comunidad necesita contexto, conversación y espacio para expresarse.
+- **Una publicación puede ser un pequeño documento.** Los Smart Blocks permiten componer Entradas con distintas piezas de contenido.
+- **Glow evoluciona dentro de Nhur.** El nombre anterior da paso al producto actual; Glow continúa como parte de su estética y lenguaje visual.
 
 ## Accesibilidad como criterio de diseño
 
